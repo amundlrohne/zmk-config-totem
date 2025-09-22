@@ -77,12 +77,12 @@ label= "BASE"                              ;
 //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷                  ╷           ╷           ╷             ╷           ╷              ╷   ╷            ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-                &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G           &kp H       &mt RSHFT J &mt RCTRL K &mt RALT L  &mt RGUI SEMI
-    &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &kp DEL   &lt NAV TAB   &kp SPACE       &kp RET   &lt SYM ESC   &kp BSPC
+                       &kp Q       &kp W       &kp E         &kp R       &kp T              &kp Y        &kp U       &kp I       &kp O       &kp P
+                       &kp A       &kp S       &kp D         &kp F       &kp G              &kp H        &kp J       &kp K       &kp L       &kp SEMI
+    &mt LSHIFT GRAVE   &kp Z       &kp X       &kp C         &kp V       &kp B              &kp N        &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mt RSHIFT BSLH
+                                               &mt LCTRL DEL &lt NAV TAB &mt LALT SPACE     &mt RGUI RET &lt SYM ESC &mt RCTRL BSPC
                         >;
                 };
 
